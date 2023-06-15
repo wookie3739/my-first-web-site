@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            *{
+                padding:0;
+                margin:0;
+                box-sizing: border-box;
+
+            }
+            li{
+                list-style-type:none;
+            }
+            header{ height:100px;
+                border:solid 1px red;
+            }
+            .box{
+                width:1100px;
+                margin:0 auto;
+                border:solid 1px green;
+
+            }
+            #logo{
+                float:left;
+                margin:30px 0 0 30px;
+                border:solid 1px red;
+
+            }
+            #menu{
+                float:right;
+                text-align:right;
+                margin-right:20px;
+                border:solid 1px red;
+            }
+            #menu li{
+                display:inline-block;
+                border:solid 1px red;
+            }
+            #top_menu li{
+                margin: 30px 0 0 10px;
+                border:solid 1px red;
+            }
+            #main_menu li{
+                margin:50px 0 0 80px;
+                font-family:"맑은고딕";
+                font-weight:bold;
+                font-size:20px;
+                border:solid 1px red;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="box">
+                <div id="logo">
+                    <img src="logo.png">
+                </div>
+                <nav id="menu">
+                    <ul id="top_menu">
+                        <li>한민욱님</li><li>|</li>
+                        <li>로그아웃</li><li>|</li>
+                        <li>정보수정</li>
+                    </ul>
+                    <ul id="main_menu">
+                        <li>Home</li>
+                        <li>출석부</li>
+                        <li>자유게시판</li>
+                        <li>윤재환</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </body>
+</html>
